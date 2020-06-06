@@ -1,0 +1,198 @@
+.navbar-brand{
+    margin: 0px 5px;
+}
+.navbar{
+    background-color: white !important;
+}
+.nav-item{
+    margin: 10px 10px;
+}
+.fa-plus-circle, .fa-user-circle{
+    margin: 7px;
+    font-size: 20px;
+}
+.card{
+    margin-top: 25px;
+    margin-left: 37px;
+    display: inline-block;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+.container1 {
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+.container2 {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+    padding: 0%;
+    opacity: 70%;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Bottom centered text */
+  .bottom-centered {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  form.contact{
+      margin-top: 20px;
+      margin-left: 150px;
+      margin-right: 350px;
+      padding: 10px 10px;
+  }
+  div.footer{
+      background-color: black;
+      width: 100%;
+      height: 250px;
+      margin-top: 30px;
+  }
+  img.logo{
+      position: relative;
+      top: 50px;
+      left: 100px;
+      width: 150px;
+      height: 150px;
+  }
+  .icons{
+      display: inline-block;
+      font-size: 30px;
+      position: relative;
+      top: 50px;
+      left: 800px;
+  }
+  .fa{
+      margin: 5px 5px;
+  }
+  .about{
+      margin: 50px 85px;
+  }
+
+  @media only screen and (max-width: 1150px){
+    img.logo{
+        position: relative;
+        top: 50px;
+        left: 75px;
+        width: 120px;
+        height: 120px;
+    }
+    .icons{
+        position: relative;
+        top: 50px;
+        left: 600px;
+    }
+    .fa{
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 950px){
+    img.logo{
+        position: relative;
+        top: 50px;
+        left: 70px;
+        width: 120px;
+        height: 120px;
+    }
+    .icons{
+        position: relative;
+        top: 50px;
+        left: 400px;
+    }
+    .fa{
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 770px){
+    img.logo{
+        position: relative;
+        top: 50px;
+        left: 60px;
+        width: 100px;
+        height: 100px;
+    }
+    .icons{
+        position: relative;
+        top: 50px;
+        left: 300px;
+    }
+    .fa{
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 630px){
+    img.logo{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+    .icons{
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+    .fa{
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 530px){
+    img.logo{
+        position: relative;
+        top: 50px;
+        left: 40px;
+        width: 70px;
+        height: 70px;
+    }
+    .icons{
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+    .fa{
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+      .about{
+          margin: 40px 50px;
+      }
+  }
+  @media only screen and (max-width: 400px){
+      .about{
+          margin: 30px 25px;
+      }
+  }
+  @media only screen and (max-width: 200px){
+      .about{
+          margin: 20px 25px;
+      }
+  }
